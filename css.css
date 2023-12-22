@@ -1,0 +1,42 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1505935428862-770b6f24f629?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    height:"100%";
+    width: "100%"; 
+
+}
+#image{
+    height: 450px; 
+    width: 550px; 
+    transform: translateX(90%);
+}
+ul{
+list-style-type:none;
+display: inline-flex;
+text-align: center;
+margin-top: 44px;
+transform: translateX(175%);
+}
+li button{
+    display: inline-flex;
+    height: 25px;
+    width: 80px;
+    background-color: aqua;
+    margin: 0px 10px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    border: none;
+    font-variant: small-caps;
+}
+li button:hover{
+    background-color: rgb(2, 71, 71);
+    color: #fff;
+    cursor: pointer;
+}
+img{
+    z-index: 0 !important;
+}
